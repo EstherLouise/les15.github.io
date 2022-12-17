@@ -1,0 +1,86 @@
+.menu li {
+  display: inline-table;
+  height: 22px;
+  width: 100px;
+  padding: 12px;
+  text-align: center;
+  color: red;
+  border-left: 2px solid green;
+  border-right: 1px solid green;
+  background-color: lightgreen;
+}
+
+.menu li:hover {
+  background-color: lightblue;
+  border-style: none;
+}
+
+h1 {
+  margin-left: 200px;
+  margin: auto;
+  max-width: 400px;
+  color: blue;
+}
+body {
+  background-color: aliceblue;
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  color: rgb(76, 0, 255);
+  text-align: center;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+input[type="text"],
+input[type="email"],
+textarea,
+select,
+button {
+  display: block;
+  margin: 15px 0px;
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px grey;
+}
+textarea {
+  height: 200px;
+  background-color: lightblue;
+  padding: 5px 4px;
+}
+button:active {
+  background-color: lightgreen;
+  color: blue;
+  border-radius: 8px;
+  box-shadow: inset 2px 2px 5px green;
+}
+
+footer {
+  padding: 5px;
+}
+
+.CV {
+  color: red;
+  margin-left: 200px;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.buttoncv:hover {
+  background-color: goldenrod;
+}
+
+.contact {
+  color: rgb(0, 255, 64);
+  margin-left: 200px;
+  margin: auto;
+  max-width: 363px;
+}
+
+.cvh1 {
+  color: red;
+}
+
+.cvlist {
+  text-align: left;
+}
